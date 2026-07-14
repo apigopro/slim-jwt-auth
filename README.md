@@ -12,11 +12,8 @@ since tuupola's package depended on firebase/php-jwt's old (pre-6.0) API that no
 This package is published on Packagist.
 
 ```bash
-composer install apigopro/slim-jwt-auth
+composer require apigopro/slim-jwt-auth
 ```
-
-`^1.0` resolves against the `v1.0.0` tag in the repo. If you push new commits without tagging a new
-release, require `dev-main` instead until you're ready to cut `v1.0.1`, etc.
 
 ## Basic usage
 
