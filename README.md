@@ -9,30 +9,10 @@ since tuupola's package depended on firebase/php-jwt's old (pre-6.0) API that no
 
 ## Install
 
-This package isn't published on Packagist — install it as a VCS repository pointing at wherever
-you host the git repo (GitHub, GitLab, a private server, etc.).
-
-In your app's `composer.json`:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/your-org/slim-jwt-auth.git"
-        }
-    ],
-    "require": {
-        "apigopro/slim-jwt-auth": "^1.0",
-        "slim/psr7": "^1.7"
-    }
-}
-```
-
-Then:
+This package is published on Packagist.
 
 ```bash
-composer update apigopro/slim-jwt-auth
+composer install apigopro/slim-jwt-auth
 ```
 
 `^1.0` resolves against the `v1.0.0` tag in the repo. If you push new commits without tagging a new
