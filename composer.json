@@ -1,12 +1,12 @@
 {
     "name": "apigopro/slim-jwt-auth",
-    "description": "PSR-15 JWT authentication middleware for Slim Framework 4, spiritual successor to tuupola/slim-jwt-auth, built on firebase/php-jwt 6.x.",
+    "description": "PSR-15 JWT authentication middleware for Slim Framework 4, spiritual successor to tuupola/slim-jwt-auth, built on firebase/php-jwt 7.x.",
     "keywords": ["slim", "jwt", "middleware", "psr-15", "authentication"],
     "license": "MIT",
     "type": "library",
     "require": {
         "php": "^8.5",
-        "firebase/php-jwt": "^6.10",
+        "firebase/php-jwt": "^7.0",
         "psr/http-message": "^1.1 || ^2.0",
         "psr/http-server-middleware": "^1.0",
         "psr/http-server-handler": "^1.0"
